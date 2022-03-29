@@ -28,21 +28,30 @@
                     <div class="age text-center d-flex flex-column">
                         <label for="età" class="mb-3">inserisci la fascia di età</label>
                         <select name="età" id="età">
-                            <option value="under_14">sotto il 14 anni</option>
-                            <option value="over_65">sopra i 65 anni</option>
+                            <option>sotto i 14 anni</option>
+                            <option>sopra i 65 anni</option>
                         </select>
 
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <button id="genera" class="m-5">Genera</button>
+                    <button id="genera" class="m-5" onclick="myfunction()">Genera</button>
                     <button class="m-5">Annulla</button>
                 </div>
             </div>
         </div>
         <div class="row bg-row p-5">
-            <p>nome passeggero</p>
-            <p id="name_passenger"></p>
+            <div class="offset-1 col-2 bg-gray-ticket">
+                <div class=" justify-content-around text-center">
+                    <h2 class="m-3 p-2">nome passeggiero</h2>
+                    <p id="nome_passeggero"></p>
+                </div>
+                <div class="d-flex justify-content-center">
+
+                </div>
+            </div>
+
+            <p id="prezzo"></p>
         </div>
     </div>
     <script src="./asset/js/main.js"></script>

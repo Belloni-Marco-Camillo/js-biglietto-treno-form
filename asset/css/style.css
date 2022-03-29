@@ -20,3 +20,7 @@ body {
 .bg-row {
     background-color: white;
 }
+
+.bg-gray-ticket {
+    background-color: var(--gray-ticket);
+}
